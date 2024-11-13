@@ -1,0 +1,29 @@
+.card {
+    width: 25vw;
+    height: 20vw;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.Pricing {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2vw;
+    width: 100%;
+    align-items: center;
+    bottom: 0;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    color: white;
+}
+
+.img{
+    height: 20vw;
+    width: 100%;
+    /* background-color: red; */
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}

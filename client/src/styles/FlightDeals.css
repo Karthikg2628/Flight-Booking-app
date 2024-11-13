@@ -1,0 +1,24 @@
+/* Container for all deals */
+.deals-container {
+  width: 100%;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+
+.cards {
+  width: 100%;
+  min-height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 10px;
+}
+
+.deals{
+  width: fit-content;
+  display: inline-block;
+  padding: 5px 40px;
+  border-radius: 40px;
+  
+}
